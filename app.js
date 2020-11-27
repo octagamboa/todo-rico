@@ -8,8 +8,11 @@ const aboutUsImg = document.getElementById(`about-us-img`)
 const contenido = document.getElementById(`contenido`)
 const titleContent = document.getElementById(`title-content`)
 const navMenu = document.getElementById(`nav-menu`)
-const hola = document.getElementById(`header`).getElementsByTagName("nav")[1]
-
+let hideRow = document.getElementById(`row`).getElementsByTagName(`ul`)[4]
+let hideRow1 = document.getElementById(`row`).getElementsByTagName(`ul`)[3]
+let hideRow2 = document.getElementById(`row`).getElementsByTagName(`ul`)[2]
+let hideRow3 = document.getElementById(`row`).getElementsByTagName(`ul`)[1]
+let hideRow4 = document.getElementById(`row`).getElementsByTagName(`ul`)[0]
 
 // funciones para que aparezca el container con contenido
     function changeDisplay(){
@@ -44,9 +47,13 @@ openContent(contact)
         
 function openMenu(){
     navMenu.addEventListener("click",function(){
-    
-    console.log(hola)
+    hideRow.style.display = "block"
+    hideRow1.style.display = "block"
+    hideRow2.style.display = "block"
+    hideRow3.style.display = "block"
+    hideRow4.style.display = "block"
     })
+    console.log(hideRow)
 }
     
 openMenu();
