@@ -20,6 +20,11 @@ let hideRow4 = document.getElementById(`row`).getElementsByTagName(`ul`)[0]
     content.style.display = "inline-block"; // cambio el display para que el div se vea
     principal.style.display = "none" // cambio el display para que el div del logo no se vea
     imgMobile.style.display = "none"
+    hideRow.style.display = "none"
+    hideRow1.style.display = "none"
+    hideRow2.style.display = "none"
+    hideRow3.style.display = "none"
+    hideRow4.style.display = "none"
 };
 
     function openContent(rowSelection){
