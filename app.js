@@ -2,6 +2,7 @@
 const us = document.getElementById(`us`)
 const contact = document.getElementById(`contact`)
 //content of container
+const imgMobile = document.getElementById(`img-mobile`)
 const principal = document.getElementById(`principal`)
 const content = document.getElementById(`content`)
 const aboutUsImg = document.getElementById(`about-us-img`)
@@ -18,6 +19,7 @@ let hideRow4 = document.getElementById(`row`).getElementsByTagName(`ul`)[0]
     function changeDisplay(){
     content.style.display = "inline-block"; // cambio el display para que el div se vea
     principal.style.display = "none" // cambio el display para que el div del logo no se vea
+    imgMobile.style.display = "none"
 };
 
     function openContent(rowSelection){
