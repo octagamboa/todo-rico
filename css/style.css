@@ -246,7 +246,7 @@ display: none;
     }
     
     #row ul{
-    width: 80%;
+    width: 80.3%;
     font-family: 'Amatic SC', cursive;
     font-size: 2em;
     font-weight: lighter;
@@ -258,6 +258,7 @@ display: none;
     margin-bottom: -7em;
     padding-top:2em;
     padding-bottom: 2.5em;
+    padding-left: 1em;
     float: none;
     display:none;
     animation-duration: 1s;
